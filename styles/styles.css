@@ -112,7 +112,17 @@ h5 {
 .fs-7 {
   font-size: 0.7rem;
 }
-
+.reserved .cic {
+  font-size: 14px;
+}
+.reserved .rights {
+  font-size: 10px;
+}
+@media screen and (max-width: 500px) {
+  .contact-home {
+    display: none;
+  }
+}
 /* .container-fluid {
          padding: 0 20%;
       } */
