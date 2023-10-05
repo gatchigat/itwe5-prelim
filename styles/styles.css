@@ -16,7 +16,7 @@ body {
   font-family: 'Verdana', Courier, monospace;
   font-weight: 600;
   text-shadow: 1px 0 0.5px black;
-  font-size: 1rem;
+  font-size: 0.7rem;
 }
 
 .navbar .nav-item:hover,
@@ -123,6 +123,18 @@ h5 {
     display: none;
   }
 }
+@media screen and (min-width: 800px) {
+  .navbar .nav-item,
+  .navbar .nav-item .nav-link,
+  .navbar .dropdown-item {
+    color: #e0ba31;
+    font-family: 'Verdana', Courier, monospace;
+    font-weight: 600;
+    text-shadow: 1px 0 0.5px black;
+    font-size: 0.8rem;
+  }
+}
+
 /* .container-fluid {
          padding: 0 20%;
       } */
