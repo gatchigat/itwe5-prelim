@@ -119,6 +119,12 @@ h5 {
 .text-gold {
   color: #e0ba31;
 }
+.merriweather {
+  font-family: 'Merriweather', serif;
+}
+.roboto {
+  font-family: 'Roboto', sans-serif;
+}
 .fs-7 {
   font-size: 0.7rem;
 }
@@ -127,6 +133,71 @@ h5 {
 }
 .reserved .rights {
   font-size: 8px;
+}
+#about {
+  background: rgb(250, 250, 250);
+  background: -moz-linear-gradient(
+    180deg,
+    rgba(250, 250, 250, 1) 0%,
+    rgba(251, 215, 184, 0.9063291139240506) 57%,
+    rgba(246, 181, 112, 1) 96%,
+    rgba(99, 0, 0, 1) 100%,
+    rgba(150, 1, 1, 1) 100%
+  );
+  background: -webkit-linear-gradient(
+    180deg,
+    rgba(250, 250, 250, 1) 0%,
+    rgba(251, 215, 184, 0.9063291139240506) 57%,
+    rgba(246, 181, 112, 1) 96%,
+    rgba(99, 0, 0, 1) 100%,
+    rgba(150, 1, 1, 1) 100%
+  );
+  background: linear-gradient(
+    180deg,
+    rgba(250, 250, 250, 1) 0%,
+    rgba(251, 215, 184, 0.9063291139240506) 57%,
+    rgba(246, 181, 112, 1) 96%,
+    rgba(99, 0, 0, 1) 100%,
+    rgba(150, 1, 1, 1) 100%
+  );
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#fafafa",endColorstr="#960101",GradientType=1);
+}
+#creed {
+  background-color: #8f2c2c;
+  color: #a89019;
+}
+#creed .container {
+  background-image: url('/images/creed-bg.png');
+  background-repeat: no-repeat;
+  text-align: center;
+  padding: 5px;
+  /* height: 450px; */
+}
+#org-chart {
+  background-color: #8f2c2c;
+}
+.car-resize {
+  /* height: 1000px; */
+  /* width: 20%; */
+  margin: auto;
+}
+.car-resize img {
+  height: 20%;
+}
+
+.about-p {
+  font-family: 'Roboto', sans-serif;
+  font-size: 1.2rem;
+  line-height: 1rem;
+}
+.about-p2 {
+  font-family: 'Roboto', sans-serif;
+  font-size: 1.1rem;
+  line-height: 1rem;
+}
+#philosophy {
+  background-color: #8f2c2c;
+  color: #ddd;
 }
 @media screen and (max-width: 500px) {
   .contact-home {
